@@ -19,30 +19,115 @@
     </header>
     <main class="flex flex-col w-2/3 mx-auto ">
         <div>
-            <h2 class="text-4xl text-stone-50 pt-10 font-bold">Projects</h2>
-            <div class="grid grid-cols-12 grid-rows-3 gap-10 py-5">
-                <div class="group relative project col-span-6 col-start-4 delay-1000">
-                    <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="https://user-images.githubusercontent.com/108207472/228713163-88712c98-9123-4823-a41b-3d8bc562540c.gif" alt="">
-                    <!-- <div class="absolute top-0 w-full h-full group-hover:bg-gray-600/75"></div> -->
-                    <div class="invisible group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5">
-                        <h3 class="visible text-white font-bold text-lg">Cosmoggedon</h3>
-                        <p class="text-white/0 group-hover:text-white/100 transition-all group-hover:delay-700 duration-500">Multi-player Asteroids built with socket.io</p>
+            <h2 class="text-4xl text-stone-50 pt-10 font-bold ">Projects</h2>
+            <div class="grid grid-cols-12 grid-rows-12 gap-10 py-5 mb-16 w-full">
+                <a href="https://multiplayer-asteroids.herokuapp.com" target="_blank">
+                    <div class="group relative project col-span-6 col-start-4 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="https://user-images.githubusercontent.com/108207472/228713163-88712c98-9123-4823-a41b-3d8bc562540c.gif" alt="">
 
-                        <a href="https://github.com/coltmort/Cosmogeddon" target="_blank">
-                            <img class="absolute -bottom-12 aspect-square h-6 group-hover:delay-700 duration-500" src="images/github-mark.png" alt="">
-                        </a>
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Cosmoggedon</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Multi-player Asteroids built with socket.io</p>
+
+                                <img id="cosmogeddon-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
                     </div>
+                </a>
+                <a href="https://infinite-meadow-71565.herokuapp.com/signup" target="_blank">
+                    <div class="group relative project col-span-6 row-start-6 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="images/Semi-Snitch.png" alt="">
 
-                </div>
-                <div class="project col-span-6">
-                    <h3>Semi Snitch</h3>
-                    <img class="" src="images/Semi-Snitch.png" alt="">
-                </div>
-                <div class="project col-span-6 ">
-                    <h3>Hungry Beats</h3>
-                    <img class="" src="images/Hungry-beats.png" alt="">
-                </div>
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Semi-Snitch</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Slash costs, curb emissions with Semi-Snitch: idle time optimizer</p>
+
+                                <img id="semi-snitch-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://coltmort.github.io/Hungry-Beats/" target="_blank">
+                    <div class="group relative project col-span-6 row-start-6 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="images/Hungry-beats.png" alt="">
+
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Hungry-beats</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Find meal ideas based on dietary restrictions</p>
+
+                                <img id="hungry-beats-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+
             </div>
+            <!-- commented out is grid. Not working, Trying flex instead -->
+
+            <!-- <div class="grid grid-cols-12 grid-rows-12 gap-10 py-5 mb-16 w-full">
+                <a href="https://multiplayer-asteroids.herokuapp.com" target="_blank">
+                    <div class="group relative project col-span-6 col-start-4 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="https://user-images.githubusercontent.com/108207472/228713163-88712c98-9123-4823-a41b-3d8bc562540c.gif" alt="">
+
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Cosmoggedon</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Multi-player Asteroids built with socket.io</p>
+
+                                <img id="cosmogeddon-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://infinite-meadow-71565.herokuapp.com/signup" target="_blank">
+                    <div class="group relative project col-span-6 row-start-6 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="images/Semi-Snitch.png" alt="">
+
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Semi-Snitch</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Slash costs, curb emissions with Semi-Snitch: idle time optimizer</p>
+
+                                <img id="semi-snitch-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://coltmort.github.io/Hungry-Beats/" target="_blank">
+                    <div class="group relative project col-span-6 row-start-6 h-full delay-1000">
+                        <img class="absolute object-fill group-hover:scale-110 duration-500 transition-transform" src="images/Hungry-beats.png" alt="">
+
+                        <div class="invisible group-hover:bg-slate-800/75  group-hover:visible absolute -bottom-10 transition-all duration-1000 group-hover:bottom-5 left-5 group-hover:delay-300 px-5 py-3 rounded group-hover:drop-shadow-2xl">
+                            <h3 class="visible text-white font-bold text-lg">Hungry-beats</h3>
+
+                            <div class="opacity-0 group-hover:opacity-100 transition-all group-hover:delay-300 duration-500">
+                                <p class="text-white ">Find meal ideas based on dietary restrictions</p>
+
+                                <img id="hungry-beats-github" class="absolute -bottom-12 aspect-square h-6 " src="images/github-mark-white.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </div> -->
         </div>
     </main>
 
